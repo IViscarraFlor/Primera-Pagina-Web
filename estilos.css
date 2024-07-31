@@ -1,3 +1,109 @@
-body{
-    background-color: blueviolet;
+#TituloPrincipal {
+    background-color: azure;
+    font-size: 4em;
+    font-style: italic;
+    border: 5px solid blue;
+    width: 18em;
+    border-radius: 20%;
+    margin: auto;
+    padding: 0em 0em 0em 1em;
+    margin-top: 3px;
+
+}
+
+#Imagen {
+    width: 35%;
+    padding: 4em;
+    margin: auto;
+    display: flex;
+    align-self: center;
+    
+}
+
+#BarraDeTareas{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.ItemEnBarra {
+    border: 1em solid blueviolet;
+}
+.ItemEnBarra:hover{
+    border: 1em solid aqua;
+}
+
+.titulosh2{
+    font-size: 2em;
+    border: 1em solid seagreen;
+    width: 20em;
+    margin: 1em;
+    padding: 0em 0em 0em 2em;
+    margin: auto;
+    font-style: oblique;
+    
+}
+article {
+    background-color: cadetblue;
+
+}
+
+.articulo1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloh3 {
+    border: 1vw solid maroon;
+    width: 20em;
+    font-size: 25px;
+}
+
+.textoarticulo1 {
+    width: 18em;
+    font-size: 20px;
+    border: 5px solid black;
+}
+
+.tituloh4 {
+    border: 3px solid rgb(11, 40, 68);
+    font-size: 20px;
+    width: 15em;
+    margin-top: 1em;
+}
+
+#preguntasdelauni {
+    border: 5px solid black;
+    padding: 2px 0px 2px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#probandoinput {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.input {
+    padding: 5px 0px 5px 5px;
+    border: 2px solid antiquewhite;
+}
+
+#lista {
+    padding: 5px 0px 5px 5px;
+}
+
+.item {
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-end;    
+}
+
+
+.Link {
+    color: darkgreen;
+    font-size: 4em;
+    display: flex;
+    justify-content: center;
 }

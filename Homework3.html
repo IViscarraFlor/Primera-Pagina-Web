@@ -3,56 +3,82 @@
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Mi Primer Sitio Web</title>
+      <title> Mi Primer Sitio Web</title>
       
       <link rel="stylesheet" href="estilos.css"/>
+      <link rel="stylesheet" href="reset.css"
    </head>
+
    <body>
+
       <header> 
-        <h1> Aprendiendo a crear una pagina web </h1>
-        <img src="./FiatSpazioTandil.jpg"/>
-        <div>
-           <span> HOME </span>
-           <span> CONTACTO</span>
-           <span> LUGAR</span>
+
+        <h1 id="TituloPrincipal"> Aprendiendo a crear una pagina web </h1>
+
+        <img id= "Imagen" src="FiatSpazioTandil.jpg">
+
+        <div id="BarraDeTareas">
+           <span class="ItemEnBarra"> HOME </span>
+           <span class="ItemEnBarra"> CONTACTO</span>
+           <span class="ItemEnBarra"> LUGAR</span>
         </div>
+
       </header>
+
           <hr />
+
       <main>
-     <section>
-       <h2> Primera noticia: Autos de carrera</h2>
-         <article> 
-          <h3> El cuarenti dominando</h3>
-            <div> 
-             <p> Siempre supe que me iba a gustar un hombre con un cuarenti porque Lorem ipsum 
+
+       <section>
+
+         <h2 class="titulosh2">Primera noticia: Autos de carrera</h2>
+
+            <article class="articulo1"> 
+
+             <div> 
+               <h3 class="tituloh3"> El cuarenti dominando</h3>
+                 <div> 
+                   <p class="textoarticulo1"> Era obvio que un hombre con un cuarenti me iba a gustar porque Lorem ipsum 
                dolor, sit amet consectetur adipisicing elit. Magnam inventore asperiores aliquid 
                quasi consequatur consequuntur ipsam incidunt nemo eaque! Temporibus molestiae quaerat 
                pariatur. Doloribus maiores, minima ducimus ea molestiae beatae? 
-            </p>
-           </div>
-           <h3> El Batimovil es una bestia </h3>
-           <div> 
-              <p> El auto destinado para mi siempre fue y va a ser el batimovil porque Lorem ipsum dolor
+                   </p>
+                </div>
+             </div>
+
+             <div>
+              <h3 class="tituloh3"> El Batimovil es una bestia </h3>
+                 <div> 
+                    <p class="textoarticulo1"> El auto destinado para mi siempre fue y va a ser el batimovil porque Lorem ipsum dolor
                 sit amet consectetur adipisicing elit. Temporibus natus rem nihil, fugit aliquam a
                 speriores possimus tempore molestias dignissimos tenetur saepe sunt facere illo 
                 adipisci necessitatibus ut explicabo quia ullam.
-               </p>
-           </div>
-           <h3> El nuevo Khronos es para christian </h3>
-           <div>
-            <p> Mi mama le esta comprando un auto a la pareja porque es una sugar mami, las razones 
+                    </p>
+                 </div>
+             </div>
+
+             <div>
+              <h3 class="tituloh3"> El nuevo Khronos es para christian </h3>
+                <div>
+                   <p class="textoarticulo1"> Mi mama le esta comprando un auto a la pareja porque es una sugar mami, las razones 
                son Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis totam eius ipsam 
                saepe sed asperiores ullam tempora, ab atque aut quaerat cumque deleniti corporis 
                mollitia reiciendis! Tempore et dolores cum!
-            </p>
-           </div>
-         </article>
+                   </p>
+                </div>
+             </div>
+
+          </article>
+
          <hr />
-         <h2> Segunda Noticia: Flor se quiere cambiar de universidad </h2>
+
+         <h2 class="titulosh2"> Segunda Noticia: Flor se quiere cambiar de universidad </h2>
+
          <article>
-            <h3> La Universidad Nacional De Arte</h3>
+
+            <h3 class="tituloh3"> La Universidad Nacional De Arte</h3>
             <div>
-               <form>
+               <form id="preguntasdelauni">
                   <div>
                      <label for="Materias"> Materias</label>
                      <input type="text" name="Materias"/>
@@ -65,75 +91,89 @@
                      <input type="text" placeholder=" Comentarios"/>
                   </div>
                </form>
-                  <h4> Probando los type de input </h4>
+
+                  <h4 class="tituloh4"> Probando los type de input </h4>
                <form>
-                  <div>
-                     <label for="checkbox">checkbox</label>
-                     <input type="checkbox" name="checkbox"/>
-                  </div>
-                  <div>
-                     <label for="color">color</label>
-                     <input type="color" name="color"/>
-                  </div>
-                  <div>
-                     <label for="date"> date </label>
-                     <input type="date" name="date"/>
-                  </div>
-                  <div>
-                     <label for="datetime"> datetime</label>
-                     <input type="datetime" name="datetime"/>
-                  </div>
-                  <div>
-                     <label for="datetime-local"> datetime-local</label>
-                     <input  type="datetime-local" name="datetime-local"/>
-                  </div>
-                  <div>
-                     <label for="email"> email</label>
-                     <input type="email" name="email"/>
-                  </div>
-                  <div>
-                     <label for="file"> file </label>
-                     <input type="file" name="file"/>
-                  </div>
-                  <div>
-                     <label for="hidden">hidden</label>
-                     <input type="hidden" name="hidden"/>
-                  </div>
-                  <div>
-                     <label for="reset">reset</label>
-                     <input type="reset" name="reset"/>
-                  </div>
-                  <div>
-                     <label for="submit">submit</label>
-                     <input type="submit" name="submit"/>
-                  </div>
-                  <div>
-                     <label for="search">search</label>
-                     <input type="search" name="search"/>
-                  </div>
-                  <div>
-                     <label for="week">week</label>
-                     <input type="week" name="week"/>
-                  </div>
+                 <div id="probandoinput">
+                   <div class="input">
+                      <label for="checkbox">checkbox</label>
+                      <input type="checkbox" name="checkbox"/>
+                   </div>
+                   <div class="input">
+                      <label for="color">color</label>
+                      <input type="color" name="color"/>
+                   </div>
+                   <div class="input">
+                      <label for="date"> date </label>
+                      <input type="date" name="date"/>
+                   </div>
+                   <div class="input">
+                      <label for="datetime"> datetime</label>
+                      <input type="datetime" name="datetime"/>
+                   </div>
+                   <div class="input">
+                      <label for="datetime-local"> datetime-local</label>
+                      <input  type="datetime-local" name="datetime-local"/>
+                   </div>
+                   <div class="input">
+                      <label for="email"> email</label>
+                      <input type="email" name="email"/>
+                   </div>
+                   <div class="input">
+                      <label for="file"> file </label>
+                      <input type="file" name="file"/>
+                   </div>
+                   <div class="input">
+                      <label for="hidden">hidden</label>
+                      <input type="hidden" name="hidden"/>
+                   </div>
+                   <div class="input">
+                      <label for="reset">reset</label>
+                      <input type="reset" name="reset"/>
+                   </div>
+                   <div class="input">
+                      <label for="submit">submit</label>
+                      <input type="submit" name="submit"/>
+                   </div>
+                   <div class="input">
+                      <label for="search">search</label>
+                      <input type="search" name="search"/>
+                   </div>
+                   <div class="input">
+                      <label for="week">week</label>
+                      <input type="week" name="week"/>
+                   </div>
+                </div>
                </form>
+
             </div>
-            <h3> La ENERC: El instituto del incaa </h3>
+
+            <h3 class="tituloh3"> La ENERC: El instituto del incaa </h3>
             <div> 
-               <ol>
-                  <li> Es mas especifica</li>
-                  <li> Son menos alumnos </li>
-                  <li> Hay muchos equipos</li>
+               <ol id="lista">
+                  <li class="item"> -Es mas especifica</li>
+                  <li class="item"> -Son menos alumnos </li>
+                  <li class="item"> -Hay muchos equipos</li>
                </ol>
             </div>
+
            </article>
+
         </section>
+
      </main>
+
   </body>
+
    <hr />
+
    <footer> 
+
       <span>
-         <a href="https://music.youtube.com/watch?v=ir11ZA4lJJk&list=PLG2TOCTw20u-_GXa4sVfZWw2vIbXrJB9I"> BLUE </a>
-         <a href="https://music.youtube.com/watch?v=4B7gJMPOYWk&list=PLG2TOCTw20u-_GXa4sVfZWw2vIbXrJB9I"> HOSTAGE </a>
+         <a class="Link" href="https://music.youtube.com/watch?v=ir11ZA4lJJk&list=PLG2TOCTw20u-_GXa4sVfZWw2vIbXrJB9I"> BLUE </a>
+         <a class="Link" href="https://music.youtube.com/watch?v=4B7gJMPOYWk&list=PLG2TOCTw20u-_GXa4sVfZWw2vIbXrJB9I"> HOSTAGE </a>
       </span>
+
    </footer>
+
  </html>
